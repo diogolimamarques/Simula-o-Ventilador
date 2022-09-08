@@ -32,8 +32,7 @@ theta = theta*(2**vel_vent/2)
 anim = FuncAnimation(fig, animator, frames=theta, blit=True, repeat=True, interval = 8)
 
 # EXIBIR
-while(i >= 0):
-    plt.show()
+plt.show()
 
 def toggle_plot():
     fig.set_visible(not fig.get_visible())
